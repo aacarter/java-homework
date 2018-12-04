@@ -37,35 +37,28 @@
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime-form" type="text" placeholder="1/11/2011">
+                        <label for="Date">Enter a Date</label>
+                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2010">
                       </li>
                       <li class="filter list-group-item">
-                        <label for="city">Enter a city</label>
-                        <input class="form-control" id="city-form" type="text" placeholder="minneapolis">
+                        <label for="City">Enter a city</label>
+                        <input class="form-control" id="city" type="text" placeholder="city">
                       </li>
                       <li class="filter list-group-item">
-                        <label for="state">Enter a state</label>
-                        <input class="form-control" id="state-form" type="text" placeholder="mn">
+                        <label for="State">Enter a state</label>
+                        <input class="form-control" id="state" type="text" placeholder="mn">
                       </li>
                       <li class="filter list-group-item">
-                        <label for="country">Enter a country</label>
-                        <input class="form-control" id="country-form" type="text" placeholder="USA">
+                        <label for="Country">Enter a country</label>
+                        <input class="form-control" id="country" type="text" placeholder="us">
                       </li>
                       <li class="filter list-group-item">
-                        <label for="shape">Enter a shape</label>
-                        <input class="form-control" id="shape-form" type="text" placeholder="circle">
+                        <label for="Shape">Enter a shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="circle">
                       </li>
                     </ul>
                   </div>
-                  <ul class="list-group" id="buttons">
-                    <li>
-                      <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
-                    </li>
-                    <!-- <li>
-                      <button id="reset-btn" type="submit" class="btn btn-default">Reset Table</button>
-                    </li> -->
-                  </ul>
+                  <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
                 </form>
               </div>
             </div>
@@ -73,7 +66,7 @@
         </div>
         <div class="col-md-10">
           <div id="table-area" class="">
-            <table border="1" id="ufo-table" class="table table-striped" >
+            <table id="ufo-table" class="table table-striped" >
               <thead>
                 <tr>
                   <th class="table-head">Date</th>
